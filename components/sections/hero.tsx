@@ -11,15 +11,15 @@ export function HeroSection() {
           <div className="space-y-6">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-2">Sebastián Chávary</h1>
-              <p className="text-xl text-accent font-mono">Software Engineer</p>
+              <p className="text-xl text-accent font-mono">Senior Software Engineer</p>
             </div>
 
             <p className="text-lg text-foreground leading-relaxed">
-              Building scalable systems. Solving complex problems.
+              Building (cool) scalable systems. 
             </p>
 
             <p className="text-base text-muted-foreground leading-relaxed max-w-lg">
-              I specialize in AI, AWS, and web development. Currently working on systems that scale and ship production
+              I specialize in AI, AWS, and web development. Currently working on financial systems that ship production
               code that doesn't break.
             </p>
 
@@ -42,7 +42,7 @@ export function HeroSection() {
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
               <a
-                href="https://github.com"
+                href="https://github.com/sebastianperudev2001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -50,7 +50,7 @@ export function HeroSection() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/sebaschguti/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -58,7 +58,7 @@ export function HeroSection() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:chavarry@gmail.com"
+                href="mailto:schavarry01@gmail.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="h-5 w-5" />
@@ -73,32 +73,35 @@ export function HeroSection() {
               <div className="space-y-2 ml-4 text-muted-foreground">
                 <div>
                   <span className="text-accent">name:</span>
-                  <span className="text-foreground ml-2">"Sebastián Chávary"</span>,
+                  <span className="text-foreground ml-2">Sebastián Chávary</span>,
                 </div>
                 <div>
                   <span className="text-accent">title:</span>
-                  <span className="text-foreground ml-2">"Software Engineer"</span>,
+                  <span className="text-foreground ml-2">Software Engineer</span>,
                 </div>
                 <div>
                   <span className="text-accent">skills:</span>
                   <span className="text-foreground ml-2">[</span>
                 </div>
                 <div className="ml-4">
-                  <span className="text-foreground">"TypeScript", "React", "Next.js",</span>
+                  <span className="text-foreground">TypeScript, Java, Python</span>
                 </div>
                 <div className="ml-4">
-                  <span className="text-foreground">"Tailwind CSS", "AWS", "LLMs"</span>
+                  <span className="text-foreground">Tailwind CSS, React, NextJS</span>
+                </div>
+                       <div className="ml-4">
+                  <span className="text-foreground">AWS, Langgraph, Langchain</span>
                 </div>
                 <div>
                   <span className="text-foreground ml-2">],</span>
                 </div>
                 <div>
                   <span className="text-accent">location:</span>
-                  <span className="text-foreground ml-2">"Lima, Peru"</span>,
+                  <span className="text-foreground ml-2">Lima, Peru</span>,
                 </div>
                 <div>
                   <span className="text-accent">email:</span>
-                  <span className="text-foreground ml-2">"chavarry@gmail.com"</span>
+                  <span className="text-foreground ml-2">schavarry01@gmail.com</span>
                 </div>
               </div>
               <div className="text-accent mt-2">{"}"}</div>
